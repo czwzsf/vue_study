@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1>我的第一个全局组件</h1>
+    <p v-html="rawHtml"></p>
     <ul>
       <li> 内容：{{ name }}</li>
       <li>{{ name.split('').reverse().join('') }}</li>
@@ -16,6 +17,7 @@ export default {
     return {
       'name': '组件名称',
       result: 100,
+      rawHtml:'<h3 style="color: red">你好！</h3>'
     }
   },
 }
