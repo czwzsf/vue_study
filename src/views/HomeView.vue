@@ -2,8 +2,6 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld/>
-    <HelloWorld/>
-    <HelloWorld/>
 <!--    <my-component-name/>-->
   </div>
 </template>
